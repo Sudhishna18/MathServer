@@ -112,7 +112,7 @@ Publish the website in the given URL.
 </body>
 </html>
 ```
-# views.py
+views.py
 ```
 from django.shortcuts import render
 def power_calculate(request):
@@ -145,7 +145,7 @@ def power_calculate(request):
     
     return render(request, 'app1/app.html',context)
 ```
-# urls.py
+urls.py
 ```
 
 
@@ -162,6 +162,7 @@ urlpatterns = [
 ## HOMEPAGE:
 
 ![WhatsApp Image 2025-05-22 at 10 25 10_8c5cca08](https://github.com/user-attachments/assets/7454f8a1-357f-4542-9575-d7ba93f33d62)
+![image](https://github.com/user-attachments/assets/a7f1dbcc-9475-4cd4-affd-b7c02cc33bc4)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
